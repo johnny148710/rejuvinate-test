@@ -1,0 +1,37 @@
+%title-font {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    text-align: Center;
+    line-height: 60px;
+    letter-spacing: Normal;
+}
+
+%title-font-light {
+    @extend %title-font;
+    font-weight: 300;
+}
+
+%title-font-semilight {
+    @extend %title-font;
+    font-weight: 400;
+}
+
+%title-font-normal {
+    @extend %title-font;
+    font-weight: 500;
+}
+
+%title-font-semibold {
+    @extend %title-font;
+    font-weight: 600;
+}
+
+%title-font-bold {
+    @extend %title-font;
+    font-weight: 700;
+}
+
+%title-font-light {
+    @extend %title-font;
+    font-weight: 800;
+}

@@ -33,6 +33,16 @@
 
 
 // Components
-@import "./components/layout";
-@import "./components/header";
-@import "./components/hero";
+    // @import "./components/variables";
+    @import "./components/hero";
+
+// Styling
+    @import "./styling/fonts";
+    @import "./styling/styling";
+
+// Layouts
+    @import "./layouts/header";
+    @import "./layouts/layout";
+
+// External
+    @import "./external/slick";
