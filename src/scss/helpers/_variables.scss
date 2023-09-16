@@ -1,0 +1,50 @@
+/*
+ * Bootstrap variable overides
+*/
+$grid-columns: 12;
+$grid-gutter-width: 16px;
+
+$grid-breakpoints: (
+	xs: 0,
+	sm: 576px,
+	md: 768px,
+	lg: 992px,
+	xl: 1200px,
+	xxl: 1440px,
+);
+
+$container-max-widths: (
+	sm: 540px,
+	md: 720px,
+	lg: 960px,
+	xl: 1180px,
+	xxl: 1440px,
+);
+
+$spacers: (
+	0: 0,
+    1: ($spacer * .25),
+    2: ($spacer * .5),
+    3: $spacer,
+    4: ($spacer * 1.5),
+    5: ($spacer * 2),
+    6: ($spacer * 2.5),
+    7: ($spacer * 3),
+    8: ($spacer * 3.5),
+    9: ($spacer * 4),
+);
+
+/*
+ * Site specific variables
+*/
+$colour-primary: #0784AC;
+$colour-background: #F9F9F9;
+$colour-background-secondary: #f5f4f4;
+$colour-border: #d8d5d5;
+$colour-text: #212121;
+$colour-text-invert: #FFFFFF;
+
+$colour-success: #4AAB4E;
+$colour-warning: #F58502;
+$colour-info: #438d9a;
+$colour-danger: #d64d4d;

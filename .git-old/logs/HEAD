@@ -1,0 +1,5 @@
+0000000000000000000000000000000000000000 7cbbad127cbebe0d47f06de4ae455240ae268108 Work <wrapped@grade1s-MacBook-Pro.local> 1694791378 +0100	clone: from https://bitbucket.org/rejuvenateproductions/frontend-test.git
+7cbbad127cbebe0d47f06de4ae455240ae268108 7cbbad127cbebe0d47f06de4ae455240ae268108 Work <wrapped@grade1s-MacBook-Pro.local> 1694865366 +0100	checkout: moving from master to setup
+7cbbad127cbebe0d47f06de4ae455240ae268108 da7d0dbb4fcbcaaac8537888bfb7edbcc59fde14 Work <wrapped@grade1s-MacBook-Pro.local> 1694865388 +0100	commit: Initial Commit
+da7d0dbb4fcbcaaac8537888bfb7edbcc59fde14 0000000000000000000000000000000000000000 Work <wrapped@grade1s-MacBook-Pro.local> 1694865434 +0100	Branch: renamed refs/heads/setup to refs/heads/master
+0000000000000000000000000000000000000000 da7d0dbb4fcbcaaac8537888bfb7edbcc59fde14 Work <wrapped@grade1s-MacBook-Pro.local> 1694865434 +0100	Branch: renamed refs/heads/setup to refs/heads/master

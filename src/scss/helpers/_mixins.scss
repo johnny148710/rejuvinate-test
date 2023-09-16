@@ -1,0 +1,44 @@
+@mixin link-reset($colour, $hover-colour: '') {
+    color: $colour;
+
+    &:hover,
+    &:focus {
+        text-decoration: none;
+        outline: none;
+        @if $hover-colour != '' {
+            color: $hover-colour;
+        } @else {
+            color: darken($colour, 10%);
+        }
+    }
+}
+
+@mixin position($top: '', $left: '', $right: '', $bottom: '') {
+    @if $top != '' {
+        top: $top;
+    }
+    @if $left != '' {
+        left: $left;
+    }
+    @if $right != '' {
+        right: $right;
+    }
+    @if $bottom != '' {
+        bottom: $bottom;
+   }
+}
+
+@mixin position-absolute($top: '', $left: '', $right: '', $bottom: '') {
+    position: absolute;
+    @include position($top, $left, $right, $bottom);
+}
+
+@mixin position-relative($top: '', $left: '', $right: '', $bottom: '') {
+    position: relative;
+    @include position($top, $left, $right, $bottom);
+}
+
+@mixin position-fixed($top: '', $left: '', $right: '', $bottom: '') {
+    position: fixed;
+    @include position($top, $left, $right, $bottom);
+}
