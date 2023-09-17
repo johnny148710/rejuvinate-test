@@ -1,0 +1,29 @@
+.hero {
+    background: $colourDarkBlue;
+    background: linear-gradient(180deg, $colourDarkBlue 0%, $colourLightBlue 100%);
+    height: 568px;
+
+    .slider {
+        &__nav {
+            button {
+                background: transparent;
+                border: 4px solid $colourWhite;
+                color: $colourWhite;
+                // padding: 1rem 2rem;
+                // border-radius: 30px;
+                margin: 24px 16px;
+                padding: 8px 34.5px;
+                border-radius: 100px;
+                border: solid 2px #fcfcfc;
+            }
+        }
+
+        &__single {
+            img {
+                width: 482px;
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    }
+}   

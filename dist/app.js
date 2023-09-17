@@ -17,10 +17,20 @@ __webpack_require__.r(__webpack_exports__);
 
 __webpack_require__.g.jQuery = __webpack_require__.g.$ = (jquery__WEBPACK_IMPORTED_MODULE_1___default());
 jquery__WEBPACK_IMPORTED_MODULE_1___default()(function () {
-  jquery__WEBPACK_IMPORTED_MODULE_1___default()('.your-class').slick({
-    infinite: true,
-    slidesToShow: 3,
-    slidesToScroll: 3
+  jquery__WEBPACK_IMPORTED_MODULE_1___default()('.slider-single-js').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    fade: true,
+    asNavFor: '.slider__nav'
+  });
+  jquery__WEBPACK_IMPORTED_MODULE_1___default()('.slider-nav-js').slick({
+    slidesToShow: 4,
+    slidesToScroll: 0,
+    asNavFor: '.slider__single',
+    dots: true,
+    centerMode: true,
+    focusOnSelect: true
   });
 });
 

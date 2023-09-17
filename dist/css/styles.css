@@ -12639,12 +12639,93 @@ h1 {
   font-weight: 700;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.padding-full {
+  padding: 1rem;
+}
+.padding-full__large {
+  padding: 3rem;
+}
+
+.padding-top {
+  padding-top: 1rem;
+}
+.padding-top__large {
+  padding-top: 3rem;
+}
+
+.padding-right {
+  padding-right: 1rem;
+}
+.padding-right__large {
+  padding-right: 3rem;
+}
+
+.padding-bottom {
+  padding-bottom: 1rem;
+}
+.padding-bottom__large {
+  padding-bottom: 3rem;
+}
+
+.padding-left {
+  padding-left: 1rem;
+}
+.padding-left__large {
+  padding-left: 3rem;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header img {
+  max-width: 113px;
+}
+
 html, body {
   position: relative;
   height: 100%;
   width: 100%;
   background: #F9F9F9;
   color: #212121;
+}
+
+.hero {
+  background: #2652e6;
+  background: linear-gradient(180deg, #2652e6 0%, #4098c6 100%);
+  height: 568px;
+}
+.hero .slider__nav button {
+  background: transparent;
+  border: 4px solid #fff;
+  color: #fff;
+  margin: 24px 16px;
+  padding: 8px 34.5px;
+  border-radius: 100px;
+  border: solid 2px #fcfcfc;
+}
+.hero .slider__single img {
+  width: 482px;
+  display: block;
+  margin: 0 auto;
 }
 
 /* Arrows */
@@ -12862,6 +12943,7 @@ html, body {
 }
 
 .slick-slide {
+  text-align: center;
   display: none;
   float: left;
   height: 100%;

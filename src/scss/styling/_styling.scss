@@ -1,3 +1,88 @@
 h1 {
     @extend %title-font-bold;
 }
+
+h2 {
+
+}
+
+h3 {
+    
+}
+
+h4 {
+    
+}
+
+h5 {
+    
+}
+
+h6 {
+    
+}
+
+p {
+
+}
+
+a {
+
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.padding-full {
+    padding: 1rem;
+
+    &__large {
+        padding: 3rem;
+    }
+}
+
+.padding-top {
+    padding-top: 1rem;
+
+    &__large {
+        padding-top: 3rem;
+    }
+}
+
+.padding-right {
+    padding-right: 1rem;
+
+    &__large {
+        padding-right: 3rem;
+    }
+}
+
+.padding-bottom {
+    padding-bottom: 1rem;
+
+    &__large {
+        padding-bottom: 3rem;
+    }
+}
+
+.padding-left {
+    padding-left: 1rem;
+
+    &__large {
+        padding-left: 3rem;
+    }
+}
