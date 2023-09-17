@@ -20,9 +20,21 @@
 
         &__single {
             img {
-                width: 482px;
                 display: block;
                 margin: 0 auto;
+
+                &:first-of-type {
+                    width: 482px;
+                }
+                &:nth-of-type(2) {
+                    width: 414px;
+                }
+                &:nth-of-type(3) {
+                    width: 500px;
+                }
+                &:nth-of-type(4) {
+                    width: 700px;
+                }
             }
         }
     }

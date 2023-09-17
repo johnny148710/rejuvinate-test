@@ -12723,9 +12723,20 @@ html, body {
   border: solid 2px #fcfcfc;
 }
 .hero .slider__single img {
-  width: 482px;
   display: block;
   margin: 0 auto;
+}
+.hero .slider__single img:first-of-type {
+  width: 482px;
+}
+.hero .slider__single img:nth-of-type(2) {
+  width: 414px;
+}
+.hero .slider__single img:nth-of-type(3) {
+  width: 500px;
+}
+.hero .slider__single img:nth-of-type(4) {
+  width: 700px;
 }
 
 /* Arrows */
