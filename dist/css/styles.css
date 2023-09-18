@@ -12784,6 +12784,11 @@ html, body {
 .hero .slider__single .slick-slide:nth-of-type(4) img {
   width: 700px;
 }
+@media (max-width: 575.98px) {
+  .hero .slider__single .slick-slide {
+    width: 50%;
+  }
+}
 
 /* Arrows */
 .slick-prev,
