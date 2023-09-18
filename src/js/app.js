@@ -9,7 +9,9 @@ $(() => {
     $('.slider-single-js').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
-        arrows: false,
+        arrows: true,
+        nextArrow: '<button type="button" class="slick-next"><img src="src/images/next-arrow.svg" /></button>',
+        prevArrow: '<button type="button" class="slick-prev"><img src="src/images/prev-arrow.svg" /></button>',
         fade: true,
         asNavFor: '.slider__nav'
       });

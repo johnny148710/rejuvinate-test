@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>C6E275C0-E568-4953-A5EF-317A88CFE577</title>
+    <g id="Dev-test" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dev-test---Car" transform="translate(-324, -552)">
+            <g id="Icon-/-Chevron-Left" transform="translate(324, 552)">
+                <polygon id="24pt-Bounding-Box" opacity="0" fill-rule="nonzero" points="0 0 48 0 48 48 0 48"></polygon>
+                <path d="M26.72,34 L26.7200001,34 C26.1756241,33.9979225 25.6556181,33.77403 25.2800001,33.38 L17.5600001,25.38 L17.56,25.3799999 C16.797714,24.6023119 16.797714,23.3576799 17.5600001,22.5799999 L25.5600001,14.5799999 L25.5600001,14.5799999 C26.3442441,13.7957559 27.6157601,13.7957559 28.4000001,14.5799999 C29.1842441,15.3642439 29.1842441,16.6357599 28.4000001,17.4199999 L21.8000001,23.9999999 L28.1600001,30.5999999 L28.1600001,30.5999999 C28.9354481,31.3800739 28.9354481,32.6399199 28.1600001,33.4199999 L28.1600001,33.42 C27.7776741,33.799336 27.2585141,34.008442 26.7200001,34 L26.72,34 Z" id="Fill" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>
