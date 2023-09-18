@@ -69,7 +69,7 @@
                     margin: 4rem auto 0 auto;
                     
                     @include media-breakpoint-down(sm) {
-                        margin: 0;
+                        margin: 0 auto;
                     }
 
                 }

@@ -12790,7 +12790,7 @@ html, body {
 }
 @media (max-width: 575.98px) {
   .hero .slider__single .slick-slide img {
-    margin: 0;
+    margin: 0 auto;
   }
 }
 .hero .slider__single .slick-slide:first-of-type img {
